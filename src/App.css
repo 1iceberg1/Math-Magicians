@@ -5,18 +5,24 @@
   grid-template-columns: auto auto auto auto;
 }
 
-.container > div {
+.container > button {
   border: 1px solid #9f9f9f;
   text-align: center;
-  padding: 20px 0;
+  padding: 25px 0;
   font-size: 25px;
 }
 
+.container > button:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
 .container .result {
+  font-size: 25px;
   grid-column-start: 1;
   grid-column-end: 5;
   text-align: end;
-  padding-right: 10px;
+  padding: 25px 15px 25px 0;
   background-color: #bdbdbd;
 }
 
