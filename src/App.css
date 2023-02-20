@@ -1,3 +1,9 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+
 .container {
   width: 500px;
   margin: 100px auto;

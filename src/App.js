@@ -4,17 +4,15 @@ import {
 import Calculator from './components/calculator';
 import Home from './components/home';
 import Quote from './components/quote';
+import Navbar from './components/navbar';
 import './App.css';
 
-function Navbar() {
+function Layout() {
   return (
-    <ul className="navbar">
-      <li className="navTitle">Math Magicians</li>
-      <li className="navLink"><Link to="/">Home</Link></li>
-      <li className="navLink"><Link to="/calculator">Calculator</Link></li>
-      <li className="navLink"><Link to="/quote">Quote</Link></li>
-      <Outlet />
-    </ul>
+    <>
+    <Navbar />
+    <Outlet />
+    </>
   );
 }
 
@@ -22,7 +20,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Navbar />}>
+        <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="calculator" element={<Calculator />} />
           <Route path="quote" element={<Quote />} />
