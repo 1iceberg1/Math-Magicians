@@ -18,7 +18,7 @@ const Calculator = () => {
 
   return (
     <>
-      <h1>Let`&apos;`s do some math!</h1>
+      <h1 className="calTitle">Let&apos;s do some math!</h1>
       <div className="container">
         <div className="result">{state.next || state.operation || state.total || 0}</div>
         <button type="button" onClick={handleClick} className="key">AC</button>
