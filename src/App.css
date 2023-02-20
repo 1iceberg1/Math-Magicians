@@ -1,3 +1,4 @@
+/* navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -25,6 +26,16 @@
 .navbar .navLink li:nth-child(2n) {
   border-left: 2px solid #000;
   border-right: 2px solid #000;
+}
+
+/* home */
+.home {
+  padding: 20px;
+}
+
+.homeTitle {
+  font-size: 23px;
+  font-weight: 500;
 }
 
 .container {
