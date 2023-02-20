@@ -6,10 +6,11 @@ import './App.css';
 
 function Navbar() {
   return (
-    <ul>
-      <li><Link to="/">Home</Link></li>
-      <li><Link to="/calculator">Calculator</Link></li>
-      <li><Link to="/quote">Quote</Link></li>
+    <ul className="navbar">
+      <li className="navTitle">Math Magicians</li>
+      <li className="navLink"><Link to="/">Home</Link></li>
+      <li className="navLink"><Link to="/calculator">Calculator</Link></li>
+      <li className="navLink"><Link to="/quote">Quote</Link></li>
       <Outlet />
     </ul>
   );
