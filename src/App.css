@@ -1,7 +1,30 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  border: 1px solid red;
+  align-items: baseline;
+  padding: 20px;
+}
+
+.navbar .navTitle {
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.navbar .navLink {
+  display: flex;
+  margin: 0;
+}
+
+.navbar .navLink li {
+  list-style: none;
+  font-size: 19px;
+  padding: 0 15px;
+}
+
+.navbar .navLink li:nth-child(2n) {
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
 }
 
 .container {
