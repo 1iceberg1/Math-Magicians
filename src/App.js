@@ -2,6 +2,7 @@ import {
   BrowserRouter, Routes, Route, Outlet, Link,
 } from 'react-router-dom';
 import Calculator from './components/calculator';
+import Home from './components/home';
 import './App.css';
 
 function Navbar() {
@@ -21,7 +22,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Navbar />}>
-          <Route index element={<div>Home</div>} />
+          <Route index element={<Home />} />
           <Route path="calculator" element={<Calculator />} />
           <Route path="quote" element={<div>Quote</div>} />
           <Route path="*" element={<div>Not found</div>} />
