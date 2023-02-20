@@ -44,6 +44,14 @@ h1 {
   padding: 20px;
 }
 
+.homeTitle {
+  margin-bottom: 10px;
+}
+
+.homePara {
+  margin: 25px 0;
+}
+
 /* calculator */
 .calculator {
   padding: 20px;
