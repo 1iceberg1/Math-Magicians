@@ -3,6 +3,7 @@ import {
 } from 'react-router-dom';
 import Calculator from './components/calculator';
 import Home from './components/home';
+import Quote from './components/quote';
 import './App.css';
 
 function Navbar() {
@@ -24,7 +25,7 @@ function App() {
         <Route path="/" element={<Navbar />}>
           <Route index element={<Home />} />
           <Route path="calculator" element={<Calculator />} />
-          <Route path="quote" element={<div>Quote</div>} />
+          <Route path="quote" element={<Quote />} />
           <Route path="*" element={<div>Not found</div>} />
         </Route>
       </Routes>
