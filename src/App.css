@@ -41,7 +41,7 @@ h1 {
 
 /* home */
 .home {
-  padding: 20px;
+  padding: 20px 50px;
 }
 
 .homeTitle {
@@ -54,7 +54,7 @@ h1 {
 
 /* calculator */
 .calculator {
-  padding: 20px;
+  padding: 20px 40px;
   display: flex;
   justify-content: space-between;
 }
