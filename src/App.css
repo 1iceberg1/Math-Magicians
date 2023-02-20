@@ -60,7 +60,7 @@ h1 {
 }
 
 .container {
-  width: 500px;
+  width: 400px;
   display: grid;
   grid-template-columns: auto auto auto auto;
 }
@@ -68,8 +68,8 @@ h1 {
 .container > button {
   border: 1px solid #9f9f9f;
   text-align: center;
-  padding: 25px 0;
-  font-size: 25px;
+  padding: 20px 0;
+  font-size: 20px;
 }
 
 .container > button:hover {
@@ -78,11 +78,11 @@ h1 {
 }
 
 .container .result {
-  font-size: 25px;
+  font-size: 20px;
   grid-column-start: 1;
   grid-column-end: 5;
   text-align: end;
-  padding: 25px 15px 25px 0;
+  padding: 20px;
   background-color: #bdbdbd;
 }
 
