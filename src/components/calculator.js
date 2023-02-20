@@ -17,6 +17,8 @@ const Calculator = () => {
   };
 
   return (
+    <>
+    <h1>Let's do some math!</h1>
     <div className="container">
       <div className="result">{state.next || state.operation || state.total || 0}</div>
       <button type="button" onClick={handleClick} className="key">AC</button>
@@ -39,6 +41,7 @@ const Calculator = () => {
       <button type="button" onClick={handleClick} className="key">.</button>
       <button type="button" onClick={handleClick} className="key yellow">=</button>
     </div>
+    </>
   );
 };
 
