@@ -34,6 +34,10 @@ h1 {
   padding: 0 15px;
 }
 
+.navbar .navLink li a:-webkit-any-link {
+  color: #0d41ff;
+}
+
 .navbar .navLink li:nth-child(2n) {
   border-left: 2px solid #000;
   border-right: 2px solid #000;
