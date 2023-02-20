@@ -1,5 +1,5 @@
 import {
-  BrowserRouter, Routes, Route, Outlet, Link,
+  BrowserRouter, Routes, Route, Outlet,
 } from 'react-router-dom';
 import Calculator from './components/calculator';
 import Home from './components/home';
@@ -10,8 +10,8 @@ import './App.css';
 function Layout() {
   return (
     <>
-    <Navbar />
-    <Outlet />
+      <Navbar />
+      <Outlet />
     </>
   );
 }
