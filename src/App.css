@@ -1,6 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 23px;
+  font-weight: 500;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 20px;
+}
+
+.navbar .navTitle {
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.navbar .navLink {
+  display: flex;
+  margin: 0;
+}
+
+.navbar .navLink li {
+  list-style: none;
+  font-size: 19px;
+  padding: 0 15px;
+}
+
+.navbar .navLink li a:-webkit-any-link {
+  color: #0d41ff;
+}
+
+.navbar .navLink li:nth-child(2n) {
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
+}
+
+/* home */
+.home {
+  padding: 20px 50px;
+}
+
+.homeTitle {
+  margin-bottom: 10px;
+}
+
+.homePara {
+  margin: 25px 0;
+}
+
+/* calculator */
+.calculator {
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .container {
-  width: 500px;
-  margin: 100px auto;
+  width: 400px;
   display: grid;
   grid-template-columns: auto auto auto auto;
 }
@@ -8,8 +72,8 @@
 .container > button {
   border: 1px solid #9f9f9f;
   text-align: center;
-  padding: 25px 0;
-  font-size: 25px;
+  padding: 20px 0;
+  font-size: 20px;
 }
 
 .container > button:hover {
@@ -18,11 +82,11 @@
 }
 
 .container .result {
-  font-size: 25px;
+  font-size: 20px;
   grid-column-start: 1;
   grid-column-end: 5;
   text-align: end;
-  padding: 25px 15px 25px 0;
+  padding: 20px;
   background-color: #bdbdbd;
 }
 
@@ -33,4 +97,12 @@
 
 .container .yellow {
   background-color: #ff8031;
+}
+
+/* quote */
+.quotePara {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 21px;
+  font-weight: 500;
 }
