@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  color: #2F4F4F;
+}
+
 h1 {
   font-size: 23px;
   font-weight: 500;
@@ -35,7 +39,7 @@ h1 {
 }
 
 .navbar .navLink li a:-webkit-any-link {
-  color: #0d41ff;
+  color: #696969;
 }
 
 .navbar .navLink li:nth-child(2n) {
