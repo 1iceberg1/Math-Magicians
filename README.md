@@ -127,8 +127,6 @@ This project can be used to learn and practice basics of React.js. Specifically;
 
 ## 👥 Authors <a name="authors"></a>
 
-> Kaung Myat Kyaw (Barry)
-
 👤 **Kaung Myat Kyaw**
 
 - GitHub: [@githubhandle](https://github.com/Rhaegar121)
