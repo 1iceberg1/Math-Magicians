@@ -65,7 +65,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Live Demo will appear when ready
+- [Live Demo Link](https://math-magicians-0dr6.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
