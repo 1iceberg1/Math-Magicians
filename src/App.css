@@ -64,30 +64,48 @@ h1 {
 }
 
 .container {
-  width: 400px;
+  width: 370px;
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: 70px 70px 70px 70px;
+  gap: 10px;
+  padding: 30px;
+  background-color: #708090;
+  border-radius: 10px;
 }
 
 .container > button {
-  border: 1px solid #9f9f9f;
+  border: none;
+  border-radius: 23px;
   text-align: center;
   padding: 20px 0;
   font-size: 20px;
+  color: #fff;
+  background-color: #696969;
+  box-shadow: 0px 3px 5px #2F4F4F;
 }
 
 .container > button:hover {
   cursor: pointer;
-  transform: scale(1.02);
+  transform: scale(1.05);
+}
+
+.container .sign {
+  font-size: 20px;
+  background-color: #808080;
+}
+
+.container .AC {
+  font-size: 14px;
 }
 
 .container .result {
-  font-size: 20px;
+  font-size: 28px;
   grid-column-start: 1;
   grid-column-end: 5;
   text-align: end;
-  padding: 20px;
-  background-color: #bdbdbd;
+  padding: 10px;
+  color: #fff;
+  background-color: #708090;
 }
 
 .container .zero {
@@ -96,7 +114,7 @@ h1 {
 }
 
 .container .yellow {
-  background-color: #ff8031;
+  background-color: #FFA500;
 }
 
 /* quote */
