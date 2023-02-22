@@ -28,4 +28,46 @@ describe('Testing calculate.js', () => {
       operation: null,
     });
   });
+
+  test('should return the substraction of numbers', () => {
+    const obj = {
+      total: 5,
+      next: 8,
+      operation: '-',
+    };
+    const buttonName = '=';
+    expect(calculate(obj, buttonName)).toEqual({
+      total: '-3',
+      next: null,
+      operation: null,
+    });
+  });
+
+  test('should return the division of numbers', () => {
+    const obj = {
+      total: 5,
+      next: 2,
+      operation: '÷',
+    };
+    const buttonName = '=';
+    expect(calculate(obj, buttonName)).toEqual({
+      total: '2.5',
+      next: null,
+      operation: null,
+    });
+  });
+
+  test('should return the modulas of numbers', () => {
+    const obj = {
+      total: 20,
+      next: 3,
+      operation: '%',
+    };
+    const buttonName = '=';
+    expect(calculate(obj, buttonName)).toEqual({
+      total: '2',
+      next: null,
+      operation: null,
+    });
+  });
 });
