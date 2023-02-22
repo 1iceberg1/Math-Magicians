@@ -7,28 +7,24 @@ import Quote from './components/quote';
 import Navbar from './components/navbar';
 import './App.css';
 
-function Layout() {
-  return (
-    <>
-      <Navbar />
-      <Outlet />
-    </>
-  );
-}
+const Layout = () => (
+  <>
+    <Navbar />
+    <Outlet />
+  </>
+);
 
-function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="calculator" element={<Calculator />} />
-          <Route path="quote" element={<Quote />} />
-          <Route path="*" element={<div>Not found</div>} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
-  );
-}
+const App = () => (
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="calculator" element={<Calculator />} />
+        <Route path="quote" element={<Quote />} />
+        <Route path="*" element={<div>Not found</div>} />
+      </Route>
+    </Routes>
+  </BrowserRouter>
+);
 
 export default App;
