@@ -133,6 +133,12 @@ This project can be used to learn and practice basics of React.js. Specifically;
 - Twitter: [@twitterhandle](https://twitter.com/20Rhaegar)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kaung-myat-kyaw-391720227)
 
+👤**Chukwuemeka Ochuba**
+
+- GitHub: [@Donmark2k](https://github.com/Donmark2k)
+- Twitter: [@Donmark2k](https://twitter.com/donmark2k)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/chukwuemeka-ochuba/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
