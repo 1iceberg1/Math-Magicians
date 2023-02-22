@@ -45,14 +45,6 @@
 
 > HTML, CSS, Javascript and linter template
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
