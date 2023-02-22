@@ -79,13 +79,14 @@ h1 {
 
 .container > button {
   border: none;
-  border-radius: 23px;
+  border-radius: 10px;
   text-align: center;
-  padding: 20px 0;
+  padding: 15px 0;
   font-size: 20px;
+  font-weight: 600;
   color: #fff;
   background-color: #696969;
-  box-shadow: 0 3px 5px #2f4f4f;
+  box-shadow: 0 4px 1px #2f4f4f;
 }
 
 .container > button:hover {
@@ -104,12 +105,15 @@ h1 {
 
 .container .result {
   font-size: 28px;
+  font-weight: 600;
   grid-column-start: 1;
   grid-column-end: 5;
   text-align: end;
   padding: 10px;
-  color: #fff;
-  background-color: #708090;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  color: #2f4f4f;
+  background-color: #D3D3D3;
 }
 
 .container .zero {
