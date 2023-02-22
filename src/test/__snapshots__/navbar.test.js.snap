@@ -3,6 +3,7 @@
 exports[`renders correctly 1`] = `
 <nav
   className="navbar"
+  data-testid="navbar"
 >
   <h1
     className="navTitle"
