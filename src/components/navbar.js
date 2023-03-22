@@ -1,10 +1,17 @@
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
-const Navbar = () => (
-  <nav className="navbar" data-testid="navbar">
-    <h1 className="navTitle">Math Magicians</h1>
-    <ul className="navLink">
-      <li>
+const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
+  return (
+    <nav className="navbar" data-testid="navbar">
+      <h1 className="navTitle">Math Magicians</h1>
+      <ul  className={`navLink ${isOpen ? 'open' : ''}`}>
+        <li>
         <Link to="/">Home</Link>
       </li>
       <li>
@@ -14,12 +21,13 @@ const Navbar = () => (
         <Link to="/quote">Quote</Link>
       </li>
     </ul>
-    <nav className="hamburger">
+    <nav className={`hamburger ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
       <span className="line" />
       <span className="line" />
       <span className="line" />
     </nav>
   </nav>
-);
+  )
+};
 
 export default Navbar;
