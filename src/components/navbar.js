@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar" data-testid="navbar">
-      <h1 className="navTitle">Math Magicians</h1>
+      <h1 className={`navTitle ${isOpen ? 'open' : ''}`}>Math Magicians</h1>
       <ul className={`navLink ${isOpen ? 'open' : ''}`}>
         <li>
           <Link to="/">Home</Link>

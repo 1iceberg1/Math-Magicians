@@ -17,7 +17,7 @@ h1 {
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   padding: 20px;
 }
 
@@ -184,8 +184,44 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
+  .navbar .navTitle {
+    font-size: 26px;
+  }
+
+  .navbar .navTitle.open {
+    opacity: 0;
+  }
+
   .navbar .navLink {
     display: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: 2s 1 slidein;
+  }
+
+  .navbar .navLink li {
+    font-size: 17.5px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .navbar .navLink li a:-webkit-any-link {
+    text-decoration: none;
+  }
+
+  .navbar .navLink.open {
+    display: flex;
+  }
+
+  @keyframes slidein {
+    from {
+      left: 70%;
+    }
+
+    to {
+      left: 50%;
+    }
   }
 
   .hamburger {
