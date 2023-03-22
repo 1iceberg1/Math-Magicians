@@ -53,10 +53,12 @@ h1 {
   position: relative;
   cursor: pointer;
   display: none;
+  background-color: #fff;
+  border: none;
 }
 
 .hamburger span {
-  background-color: var(--text-color);
+  background-color: #2f4f4f;
   position: absolute;
   border-radius: 2px;
   transition: 0.3s cubic-bezier(0.8, 0.5, 0.2, 1.4);
@@ -179,4 +181,14 @@ h1 {
   margin-top: 60px;
   font-size: 21px;
   font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar .navLink {
+    display: none;
+  }
+
+  .hamburger {
+    display: inline-block;
+  }
 }
