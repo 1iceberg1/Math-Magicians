@@ -163,7 +163,7 @@ h1 {
   margin-bottom: 10px;
   border-radius: 10px;
   color: #2f4f4f;
-  background-color: #D3D3D3;
+  background-color: #d3d3d3;
 }
 
 .container .zero {
@@ -243,7 +243,7 @@ h1 {
     gap: 10px;
     padding: 20px;
   }
-  
+
   .container > button {
     padding: 15px 0;
     font-size: 20px;
@@ -262,5 +262,22 @@ h1 {
   .navbar .navLink li {
     font-size: 16px;
     padding: 0 10px;
+  }
+
+  /* calculator */
+  .calculator {
+    gap: 25px;
+    padding: 10px;
+  }
+
+  .container {
+    width: 300px;
+    grid-template-columns: 60px 60px 60px 60px;
+    padding: 15px;
+  }
+
+  .container > button {
+    padding: 12px 0;
+    font-size: 18px;
   }
 }
