@@ -227,4 +227,33 @@ h1 {
   .hamburger {
     display: inline-block;
   }
+
+  /* calculator */
+  .calculator {
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    align-items: center;
+  }
+
+  .container {
+    width: 330px;
+    display: grid;
+    grid-template-columns: 65px 65px 65px 65px;
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .container > button {
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  /* quote */
+  .quotePara {
+    padding: 0px 20px;
+    margin-top: 40px;
+    font-size: 19px;
+  }
 }
