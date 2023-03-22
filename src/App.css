@@ -257,3 +257,10 @@ h1 {
     font-size: 19px;
   }
 }
+
+@media screen and (max-width: 321px) {
+  .navbar .navLink li {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+}
