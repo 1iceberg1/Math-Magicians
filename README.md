@@ -31,7 +31,15 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Math_Magicians] <a name="about-project"></a>
+# 📖 [Math Magicians] <a name="about-project"></a>
+
+<div align="center">
+  <img src="assets/Desktop - 1.png" alt="project sample" width="650"  height="auto" />
+  <br/>
+
+  <h3><b>Math Magicians</b></h3>
+
+</div>
 
 > "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 >1. Make simple calculations.
