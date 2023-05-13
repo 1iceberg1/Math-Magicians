@@ -65,7 +65,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://math-magicians-0dr6.onrender.com)
+- [Live Demo Link](https://math-magicians121.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
