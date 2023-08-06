@@ -130,8 +130,8 @@ This project can be used to learn and practice basics of React.js. Specifically;
 👤 **Kaung Myat Kyaw**
 
 - Portfolio: [rhbarry.me](https://rhbarry.me)
-- GitHub: [@githubhandle](https://github.com/Rhaegar121)
-- Twitter: [@twitterhandle](https://twitter.com/Rhaegar121)
+- GitHub: [Rhaegar121](https://github.com/Rhaegar121)
+- Twitter: [Rhaegar121](https://twitter.com/Rhaegar121)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kaungmyatkyaw/)
 
 👤**Chukwuemeka Ochuba**
