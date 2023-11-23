@@ -129,7 +129,7 @@ This project can be used to learn and practice basics of React.js. Specifically;
 
 👤 **Aleksander Karlsen**
 
-- Portfolio: [rhbarry.me](https://akiceberg.me)
+- Portfolio: [akiceberg.me](https://akiceberg.me)
 - GitHub: [1iceberg1](https://github.com/1iceberg1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/aleksanderkarlsen/)
 
