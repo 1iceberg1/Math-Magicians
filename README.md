@@ -87,7 +87,7 @@ Clone this repository to your desired folder:
 2. Navigate to the directory where you want clone the copy of this repository
 3. Create new directory [optional]
 4. Clone the repo using the below command
- > git clone https://github.com/Rhaegar121/Math-Magicians.git
+ > git clone https://github.com/1iceberg1/Math-Magicians.git
 5. Alternatively, you can download the zip file of your project by clicking on the Code button on the right side of your project page and clicking on Download ZIP
 
 ### Install
@@ -127,12 +127,11 @@ This project can be used to learn and practice basics of React.js. Specifically;
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Kaung Myat Kyaw**
+👤 **Aleksander Karlsen**
 
-- Portfolio: [rhbarry.me](https://rhbarry.me)
-- GitHub: [Rhaegar121](https://github.com/Rhaegar121)
-- Twitter: [Rhaegar121](https://twitter.com/Rhaegar121)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kaungmyatkyaw/)
+- Portfolio: [rhbarry.me](https://akiceberg.me)
+- GitHub: [1iceberg1](https://github.com/1iceberg1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/aleksanderkarlsen/)
 
 👤**Chukwuemeka Ochuba**
 
